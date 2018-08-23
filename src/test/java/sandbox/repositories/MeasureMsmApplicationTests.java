@@ -33,8 +33,7 @@ public class MeasureMsmApplicationTests {
         TemperatureMeasure temperatureMeasure = new TemperatureMeasure();
         temperatureMeasure.setDeviceId("test");
         temperatureMeasure.setMeasureTime(LocalDateTime.now());
-        temperatureMeasure.setLatitude("12345");
-        temperatureMeasure.setLongitude("23456");
+        temperatureMeasure.setLocation(1.1234,2.2345);
         temperatureMeasure.setCelsius(23.12);
         return temperatureMeasure;
     }
